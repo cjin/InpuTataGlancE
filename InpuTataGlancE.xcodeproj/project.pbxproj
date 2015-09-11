@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		362653F21BA34C3D009D7774 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 362653F11BA34C3D009D7774 /* AppDelegate.m */; };
+		362653F51BA34C3D009D7774 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 362653F41BA34C3D009D7774 /* main.m */; };
+		362653F71BA34C3D009D7774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 362653F61BA34C3D009D7774 /* Assets.xcassets */; };
+		362653FA1BA34C3D009D7774 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 362653F81BA34C3D009D7774 /* MainMenu.xib */; };
+		362654051BA34C3E009D7774 /* InpuTataGlancETests.m in Sources */ = {isa = PBXBuildFile; fileRef = 362654041BA34C3E009D7774 /* InpuTataGlancETests.m */; };
+		362654101BA34C3E009D7774 /* InpuTataGlancEUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3626540F1BA34C3E009D7774 /* InpuTataGlancEUITests.m */; };
+		362654211BA35870009D7774 /* IconCredit in Resources */ = {isa = PBXBuildFile; fileRef = 362654201BA35870009D7774 /* IconCredit */; settings = {ASSET_TAGS = (); }; };
+		362654251BA358DE009D7774 /* character.png in Resources */ = {isa = PBXBuildFile; fileRef = 362654241BA358DE009D7774 /* character.png */; settings = {ASSET_TAGS = (); }; };
+		362654271BA360FC009D7774 /* character.icns in Resources */ = {isa = PBXBuildFile; fileRef = 362654261BA360FC009D7774 /* character.icns */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		362654011BA34C3E009D7774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362653E51BA34C3D009D7774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362653EC1BA34C3D009D7774;
+			remoteInfo = InpuTataGlancE;
+		};
+		3626540C1BA34C3E009D7774 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 362653E51BA34C3D009D7774 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 362653EC1BA34C3D009D7774;
+			remoteInfo = InpuTataGlancE;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		362653ED1BA34C3D009D7774 /* InpuTataGlancE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InpuTataGlancE.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		362653F01BA34C3D009D7774 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		362653F11BA34C3D009D7774 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		362653F41BA34C3D009D7774 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		362653F61BA34C3D009D7774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		362653F91BA34C3D009D7774 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		362653FB1BA34C3D009D7774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362654001BA34C3E009D7774 /* InpuTataGlancETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InpuTataGlancETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		362654041BA34C3E009D7774 /* InpuTataGlancETests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InpuTataGlancETests.m; sourceTree = "<group>"; };
+		362654061BA34C3E009D7774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3626540B1BA34C3E009D7774 /* InpuTataGlancEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InpuTataGlancEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3626540F1BA34C3E009D7774 /* InpuTataGlancEUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InpuTataGlancEUITests.m; sourceTree = "<group>"; };
+		362654111BA34C3E009D7774 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		362654201BA35870009D7774 /* IconCredit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IconCredit; sourceTree = "<group>"; };
+		362654241BA358DE009D7774 /* character.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = character.png; sourceTree = "<group>"; };
+		362654261BA360FC009D7774 /* character.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = character.icns; path = ../character.icns; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362653EA1BA34C3D009D7774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362653FD1BA34C3E009D7774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362654081BA34C3E009D7774 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		362653E41BA34C3D009D7774 = {
+			isa = PBXGroup;
+			children = (
+				362653EF1BA34C3D009D7774 /* InpuTataGlancE */,
+				362654031BA34C3E009D7774 /* InpuTataGlancETests */,
+				3626540E1BA34C3E009D7774 /* InpuTataGlancEUITests */,
+				362653EE1BA34C3D009D7774 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		362653EE1BA34C3D009D7774 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				362653ED1BA34C3D009D7774 /* InpuTataGlancE.app */,
+				362654001BA34C3E009D7774 /* InpuTataGlancETests.xctest */,
+				3626540B1BA34C3E009D7774 /* InpuTataGlancEUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		362653EF1BA34C3D009D7774 /* InpuTataGlancE */ = {
+			isa = PBXGroup;
+			children = (
+				362653F01BA34C3D009D7774 /* AppDelegate.h */,
+				362653F11BA34C3D009D7774 /* AppDelegate.m */,
+				362653F61BA34C3D009D7774 /* Assets.xcassets */,
+				362653F81BA34C3D009D7774 /* MainMenu.xib */,
+				362654201BA35870009D7774 /* IconCredit */,
+				362654261BA360FC009D7774 /* character.icns */,
+				362654241BA358DE009D7774 /* character.png */,
+				362653FB1BA34C3D009D7774 /* Info.plist */,
+				362653F31BA34C3D009D7774 /* Supporting Files */,
+			);
+			path = InpuTataGlancE;
+			sourceTree = "<group>";
+		};
+		362653F31BA34C3D009D7774 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				362653F41BA34C3D009D7774 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		362654031BA34C3E009D7774 /* InpuTataGlancETests */ = {
+			isa = PBXGroup;
+			children = (
+				362654041BA34C3E009D7774 /* InpuTataGlancETests.m */,
+				362654061BA34C3E009D7774 /* Info.plist */,
+			);
+			path = InpuTataGlancETests;
+			sourceTree = "<group>";
+		};
+		3626540E1BA34C3E009D7774 /* InpuTataGlancEUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3626540F1BA34C3E009D7774 /* InpuTataGlancEUITests.m */,
+				362654111BA34C3E009D7774 /* Info.plist */,
+			);
+			path = InpuTataGlancEUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		362653EC1BA34C3D009D7774 /* InpuTataGlancE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362654141BA34C3E009D7774 /* Build configuration list for PBXNativeTarget "InpuTataGlancE" */;
+			buildPhases = (
+				362653E91BA34C3D009D7774 /* Sources */,
+				362653EA1BA34C3D009D7774 /* Frameworks */,
+				362653EB1BA34C3D009D7774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InpuTataGlancE;
+			productName = InpuTataGlancE;
+			productReference = 362653ED1BA34C3D009D7774 /* InpuTataGlancE.app */;
+			productType = "com.apple.product-type.application";
+		};
+		362653FF1BA34C3E009D7774 /* InpuTataGlancETests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 362654171BA34C3E009D7774 /* Build configuration list for PBXNativeTarget "InpuTataGlancETests" */;
+			buildPhases = (
+				362653FC1BA34C3E009D7774 /* Sources */,
+				362653FD1BA34C3E009D7774 /* Frameworks */,
+				362653FE1BA34C3E009D7774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				362654021BA34C3E009D7774 /* PBXTargetDependency */,
+			);
+			name = InpuTataGlancETests;
+			productName = InpuTataGlancETests;
+			productReference = 362654001BA34C3E009D7774 /* InpuTataGlancETests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3626540A1BA34C3E009D7774 /* InpuTataGlancEUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3626541A1BA34C3E009D7774 /* Build configuration list for PBXNativeTarget "InpuTataGlancEUITests" */;
+			buildPhases = (
+				362654071BA34C3E009D7774 /* Sources */,
+				362654081BA34C3E009D7774 /* Frameworks */,
+				362654091BA34C3E009D7774 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3626540D1BA34C3E009D7774 /* PBXTargetDependency */,
+			);
+			name = InpuTataGlancEUITests;
+			productName = InpuTataGlancEUITests;
+			productReference = 3626540B1BA34C3E009D7774 /* InpuTataGlancEUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		362653E51BA34C3D009D7774 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Can;
+				TargetAttributes = {
+					362653EC1BA34C3D009D7774 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					362653FF1BA34C3E009D7774 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 362653EC1BA34C3D009D7774;
+					};
+					3626540A1BA34C3E009D7774 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 362653EC1BA34C3D009D7774;
+					};
+				};
+			};
+			buildConfigurationList = 362653E81BA34C3D009D7774 /* Build configuration list for PBXProject "InpuTataGlancE" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 362653E41BA34C3D009D7774;
+			productRefGroup = 362653EE1BA34C3D009D7774 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				362653EC1BA34C3D009D7774 /* InpuTataGlancE */,
+				362653FF1BA34C3E009D7774 /* InpuTataGlancETests */,
+				3626540A1BA34C3E009D7774 /* InpuTataGlancEUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		362653EB1BA34C3D009D7774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362654211BA35870009D7774 /* IconCredit in Resources */,
+				362654251BA358DE009D7774 /* character.png in Resources */,
+				362654271BA360FC009D7774 /* character.icns in Resources */,
+				362653F71BA34C3D009D7774 /* Assets.xcassets in Resources */,
+				362653FA1BA34C3D009D7774 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362653FE1BA34C3E009D7774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362654091BA34C3E009D7774 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		362653E91BA34C3D009D7774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362653F51BA34C3D009D7774 /* main.m in Sources */,
+				362653F21BA34C3D009D7774 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362653FC1BA34C3E009D7774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362654051BA34C3E009D7774 /* InpuTataGlancETests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		362654071BA34C3E009D7774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				362654101BA34C3E009D7774 /* InpuTataGlancEUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		362654021BA34C3E009D7774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362653EC1BA34C3D009D7774 /* InpuTataGlancE */;
+			targetProxy = 362654011BA34C3E009D7774 /* PBXContainerItemProxy */;
+		};
+		3626540D1BA34C3E009D7774 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 362653EC1BA34C3D009D7774 /* InpuTataGlancE */;
+			targetProxy = 3626540C1BA34C3E009D7774 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		362653F81BA34C3D009D7774 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				362653F91BA34C3D009D7774 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		362654121BA34C3E009D7774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		362654131BA34C3E009D7774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		362654151BA34C3E009D7774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InpuTataGlancE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.estivida.InpuTataGlancE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		362654161BA34C3E009D7774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InpuTataGlancE/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_BUNDLE_IDENTIFIER = com.estivida.InpuTataGlancE;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		362654181BA34C3E009D7774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InpuTataGlancETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estivida.InpuTataGlancETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InpuTataGlancE.app/Contents/MacOS/InpuTataGlancE";
+			};
+			name = Debug;
+		};
+		362654191BA34C3E009D7774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InpuTataGlancETests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estivida.InpuTataGlancETests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InpuTataGlancE.app/Contents/MacOS/InpuTataGlancE";
+			};
+			name = Release;
+		};
+		3626541B1BA34C3E009D7774 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InpuTataGlancEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estivida.InpuTataGlancEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InpuTataGlancE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		3626541C1BA34C3E009D7774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InpuTataGlancEUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.estivida.InpuTataGlancEUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InpuTataGlancE;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		362653E81BA34C3D009D7774 /* Build configuration list for PBXProject "InpuTataGlancE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362654121BA34C3E009D7774 /* Debug */,
+				362654131BA34C3E009D7774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362654141BA34C3E009D7774 /* Build configuration list for PBXNativeTarget "InpuTataGlancE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362654151BA34C3E009D7774 /* Debug */,
+				362654161BA34C3E009D7774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		362654171BA34C3E009D7774 /* Build configuration list for PBXNativeTarget "InpuTataGlancETests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				362654181BA34C3E009D7774 /* Debug */,
+				362654191BA34C3E009D7774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3626541A1BA34C3E009D7774 /* Build configuration list for PBXNativeTarget "InpuTataGlancEUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3626541B1BA34C3E009D7774 /* Debug */,
+				3626541C1BA34C3E009D7774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 362653E51BA34C3D009D7774 /* Project object */;
+}
